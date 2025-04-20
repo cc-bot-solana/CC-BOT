@@ -32,6 +32,17 @@ These accounts use shared settings. You can view their activity here:
    xxx.xxx.xxx.xx:PORT:username:password
    ```
 
+2. **Add your subnet IPs**  
+   Format should be:
+   ```
+   per line 1 IP
+   123.234.12.1
+   123.234.12.1
+   .
+   .
+   .
+   ```
+
 3. **Edit RPC URLs**  
    - In `start_jup.sh`, update the **Jupiter RPC URL**  
    - In `start_arb.sh`, update both the **RPC** and **Jupiter** URLs
