@@ -1,5 +1,0 @@
-192.168.10.12:6000:exampleUser01:pass1234
-192.168.10.13:6001:exampleUser02:pass5678
-192.168.10.14:6002:exampleUser03:pass9012
-192.168.10.15:6003:exampleUser04:pass3456
-192.168.10.16:6004:exampleUser05:pass7890
