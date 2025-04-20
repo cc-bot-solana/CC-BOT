@@ -10,6 +10,7 @@ export MAX_RETRIES=0
 export USE_SERVER_IP_WITH_PROXY_WALLETS=true
 export USE_MAIN_WALLET=true
 export PROXY_FILE=./proxies.txt
+export BIND_IP_FILE=./bindIPs.txt
 export DEFAULT_SOL_PRICE=200
 export CHECK_ATA_RPC_URL= #YOUR_RPC_URL
 
