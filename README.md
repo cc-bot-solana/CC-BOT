@@ -68,6 +68,7 @@ Download the latest release and place it in the `cc-arb-executable` folder.
 Make it executable:
 ```bash
 chmod +x cc-arbitrage-bot
+chmod +x start_arb.sh
 ```
 
 ---
@@ -81,6 +82,8 @@ Download link:
 Make it executable:
 ```bash
 chmod +x jupiter-swap-api
+chmod +x start_jup.sh
+
 ```
 
 ---
