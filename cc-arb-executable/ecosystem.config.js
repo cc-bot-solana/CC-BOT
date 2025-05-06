@@ -12,6 +12,7 @@ module.exports = {
         APP_UNIQUE_ID: "arb1", 
         PROXY_FILE: "./proxies-1.txt", // Based on the current market conditions, 25 IPs is ideal — anything over 35 is overkill
         TASKSET_RANGE: "0-3", // Note for the ryzen 7950x 16c-32t
+        BASE_CONFIG_FILE: "./baseConfig.json"
         JUPITER_URL: 'http://127.0.0.1:5050', // Note the 5050 port for jup1
         JUPITER_SWAP_URL: "http://127.0.0.1:5050", // Note the 5050 port for jup1
         USE_SERVER_IP_WITH_PROXY_WALLETS:true, // This option should be set to TRUE for only one bot — it must be FALSE for the others
@@ -30,6 +31,7 @@ module.exports = {
         APP_UNIQUE_ID: "arb2", 
         PROXY_FILE: "./proxies-2.txt", // Based on the current market conditions, 25 IPs is ideal — anything over 35 is overkill
         TASKSET_RANGE: "3-6", // Note for the ryzen 7950x 16c-32t
+        BASE_CONFIG_FILE: "./baseConfig.json"
         JUPITER_URL: 'http://127.0.0.1:5050',
         JUPITER_SWAP_URL: "http://127.0.0.1:5050", // Note the 5050 port for jup1
         USE_SERVER_IP_WITH_PROXY_WALLETS:false, // This option should be set to TRUE for only one bot — it must be FALSE for the others
@@ -48,6 +50,7 @@ module.exports = {
         APP_UNIQUE_ID: "arb3",
         PROXY_FILE: "./proxies-3.txt", // Based on the current market conditions, 25 IPs is ideal — anything over 35 is overkill
         TASKSET_RANGE: "6-9", // Note for the ryzen 7950x 16c-32t
+        BASE_CONFIG_FILE: "./baseConfig.json"
         JUPITER_URL: 'http://127.0.0.1:5051',
         JUPITER_SWAP_URL: "http://127.0.0.1:5051", // Note the 5051 port for jup2
         USE_SERVER_IP_WITH_PROXY_WALLETS:false, // This option should be set to TRUE for only one bot — it must be FALSE for the others
@@ -66,6 +69,7 @@ module.exports = {
         APP_UNIQUE_ID: "arb4",
         PROXY_FILE: "./proxies-4.txt", // Based on the current market conditions, 25 IPs is ideal — anything over 35 is overkill
         TASKSET_RANGE: "9-12", // Note for the ryzen 7950x 16c-32t
+        BASE_CONFIG_FILE: "./baseConfig.json"
         JUPITER_URL: 'http://127.0.0.1:5051',
         JUPITER_SWAP_URL: "http://127.0.0.1:5051", // Note the 5051 port for jup2
         USE_SERVER_IP_WITH_PROXY_WALLETS:false, // This option should be set to TRUE for only one bot — it must be FALSE for the others
@@ -84,6 +88,7 @@ module.exports = {
         APP_UNIQUE_ID: "arb5",
         BIND_IP_FILE: "./bind-ips-1.txt", // Based on the current market conditions, 25 IPs is ideal — anything over 35 is overkill
         TASKSET_RANGE: "12-15", // Note for the ryzen 7950x 16c-32t
+        BASE_CONFIG_FILE: "./baseConfig.json"
         JUPITER_URL: 'http://127.0.0.1:5051', // Note the 5051 port for jup2
         JUPITER_SWAP_URL: "http://127.0.0.1:5051", // Note the 5051 port for jup2
         USE_SERVER_IP_WITH_PROXY_WALLETS:false, // This option should be set to TRUE for only one bot — it must be FALSE for the others
